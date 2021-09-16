@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+
+.container-fluid {
+    width: 100%;
+    background-color: #6E85B2;
+    padding-top: 5%;
+    margin: 0;
+    position: fixed;
+}
+
+
+.logo {
+    height: auto;
+    width: 50%;
+  margin-left: 15%;
+ 
+}
+
+
+
+
+.navbar {
+    background-color: #6E85B2;
+    font-family:Verdana !important;
+    width: 100%;
+    position: fixed;
+}
+
+.myphoto {
+   width: auto;
+   height: 45%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  border-style:dotted;
+  border-radius: 50%;
+  border-color: #6E85B2;
+}
+
+.spancss {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    list-style-type: none;
+}
+
+#myname {
+    margin: 5% 10% 5% 10%;  
+   font-size: 2.5rem;
+   text-align: center;
+   font-family: 'Playfair Display', serif;}
+
+/* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+.introduction {
+    padding-top: 25%;
+    background-color: #93B5C6;
+    height: 100vh;
+}
+
+#pname  {
+        
+        text-align: center;
+        color:#000;
+        padding-top:5px;
+        font-size: 1rem;
+        font-family: 'Nanum Gothic Coding', monospace;
+      }
+ 
+
+.about-me {
+ 
+
+    background-color: #FFE3E3;
+    height: 100vh;
+  
+
+    padding-top: 2%;
+
+}
+
+
+.intro {
+    font-family: 'Roboto Mono', monospace;
+  font-size: 1.2rem;
+}
+
+button {
+    background-color: #6E85B2;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+  a:link {
+    color: black;
+
+    text-decoration: none;
+  }
+
+
+  a:visited {
+    color: black;
+  }
+  .pskills {
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  
+.projects {
+    background-color: #E4D8DC;
+    display: block;
+    overflow: auto;
+    position: sticky;
+    scroll-behavior: smooth;
+}
+
+  .pprojects {
+    font-family: 'Roboto Mono', monospace; 
+  
+  }
+
+
+  .project1 {
+      width: 100%;
+      height: auto;
+      padding: 5%;
+  }
+
+  .container-proj {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+  .pfindme {
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .btn:hover {
+    background-color: #A19882;
+  }
+
+.icons {
+    width: 15%;
+    height: 15%;
+    margin: 5%;
+}
+
+.headings {
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.myskills {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    background-color: #E4D8DC;
+    height: auto;
+}
+
+
+
+.find-me {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    background-color: #E4D8DC;
+    height: fit-content;
+    background-color: #C9CCD5;
+    
+}
+
+
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: #93B5C6;
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    
+.container-fluid {
+    width: 100%;
+    height: 30%;
+}
+
+.myname {
+    font-size: 3rem;
+}
+
+    .myphoto {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .headings {
+        font-size: 2rem;
+    }
+
+    .pskills {
+font-size: 1.5rem;
+    }
+
+    .pfindme {
+
+        font-size: 1.5rem;
+    }
+
+    .pprojects {
+        font-size: 1.5rem;
+    }
+
+    .intro {
+        font-size: 1.7rem;
+    }
+
+    }
+
+   
+
+/* Desktop */
+    @media only screen and (min-width: 992px) {
+    
+     
+        
+        .myname {
+            font-size: 3rem;
+        }
+       
+        .introduction {
+            padding-top: 5%;
+                height: 100vh;
+            }
+            .myphoto {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 20%;
+                height: auto;
+            }
+        
+            .headings {
+                font-size: 2rem;
+            }
+
+            .about-me {
+                height: 100vh;
+                padding: 10% 20% 10% 20%;
+            }
+            
+            .myskills {
+                height: 100vh;
+                padding: 10% 20% 10% 20%;
+            
+            }
+
+            .row-imgs {
+                margin: 10%;
+
+            }
+            .icons {
+                width: 10%;
+                height: 10%;
+            }
+            
+
+            .projects {
+                height: 100vh;
+                padding: 10% 20% 10% 20%;
+            }
+
+            .find-me {
+                height: 100vh;
+                padding: 10% 20% 10% 20%;  
+            }
+        
+            footer {
+                padding: 2%;
+            }
+            .pskills {
+        font-size: 1.5rem;
+            }
+        
+            .pfindme {
+        
+                font-size: 1.5rem;
+            }
+        
+            .pprojects {
+                font-size: 1.5rem;
+            }
+        
+
+    
+        
+            }
